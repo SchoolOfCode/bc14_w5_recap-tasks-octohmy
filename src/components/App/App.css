@@ -1,0 +1,39 @@
+html {
+    margin: 20px;
+}
+
+#initials {
+    font-size: 1.5rem;
+    width: 50px;
+    height: 50px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+#inline_name {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    /* // vertically align align-items;; */
+    align-items: center;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 10px;
+}
