@@ -5,8 +5,23 @@ import './App.css';
 
 import BlogPost from '../BlogPost';
 import Comment from '../Comment';
+import CommentList from '../CommentList';
 
 function App() {
+
+  const comments = [
+    {
+      id: "kskBC5HZ8qgNQUiW6If6q",
+      author: "Billy Bootcamper",
+      content: "Hello, great post",
+    },
+    {
+      id: "jFyGAKz1VsGputO1gV8xa",
+      author: "Chris Meah",
+      content: "Many thank yous",
+    },
+  ]
+
   return (
     <div>
       <BlogPost
@@ -17,7 +32,8 @@ function App() {
         imageSrc="https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
         imageAlt="A dog sitting on a beach"
         />
-      <Comment author="Ben Lee Really Really Really Super Ducks" content="Hello, great post"/>
+      <Comment author="Ben Lee Super Ducks" content="Hello, great post"/>
+      <CommentList comment = {comments} />
         </div>
   );
 }
