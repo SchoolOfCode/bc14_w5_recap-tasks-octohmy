@@ -4,7 +4,7 @@ import { useState } from 'react';
 import './App.css';
 
 import BlogPost from '../BlogPost';
-import Comment from '../Comment';
+// import Comment from '../Comment';
 import CommentList from '../CommentList';
 import CommentForm from '../CommentForm';
 
